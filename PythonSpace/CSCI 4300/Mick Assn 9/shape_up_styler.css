@@ -1,0 +1,88 @@
+main {
+    font-family: Arial;
+    border-bottom: 2px solid steelblue;
+    margin: auto;
+    background-image:
+        -webkit-linear-gradient(to bottom, white 0%, steelblue 100%);
+    background-image:
+        -moz-linear-gradient(to bottom, white 0%, steelblue 100%);
+    background-image:
+        -o-linear-gradient(to bottom, white 0%, steelblue 100%);
+    background-image:
+        linear-gradient(to bottom, white 0%, steelblue 100%);
+}
+
+body {
+    border:  3px solid steelblue;
+    width:   auto;
+    margin:  auto;
+    padding: 0px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 4px 4px 4px 4px black;
+}
+h1 {
+    color: steelblue;
+    text-shadow: 2px 2px 4px steelblue;
+    font-family: Arial;
+}
+
+h2 {
+    color: black;
+    font-family: Arial;
+}
+
+h3 {
+    font-family: Arial;
+}
+
+h4 {
+    color: maroon;
+    text-decoration: underline;
+    font-family: Arial;
+}
+
+h4:hover {
+    color: steelblue;
+    font-family: Arial;
+}
+
+p {
+    font-family: Arial;
+}
+
+li {
+    color: steelblue;
+    text-decoration: underline;
+    font-family: Arial;
+    font-weight: 600px;
+}
+ul li::before {
+  content: "\2022";
+  color: black;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1.05em;
+}
+
+li:hover {
+    color: salmon;
+    text-decoration: underline;
+    font-family: Arial;
+}
+
+img {
+    float: left;
+}
+
+#ARcaption {
+font-family: Arial;
+padding-left:50px
+}
+
+#foot {
+color: white;
+text-align: center;
+background: steelblue;
+padding: 15px;
+margin: auto;
+}

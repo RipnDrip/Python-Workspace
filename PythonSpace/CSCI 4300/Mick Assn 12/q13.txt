@@ -1,0 +1,6 @@
+SELECT name
+FROM country 
+join countrylanguage ON countrylanguage.countrycode = country.code 
+where isofficial = 'T'
+order by population asc
+limit 2;

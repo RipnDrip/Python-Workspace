@@ -1,0 +1,6 @@
+SELECT name, count(countrylanguage.language)
+FROM country 
+join countrylanguage ON countrylanguage.countrycode = country.code 
+where isofficial = 'T'
+Group by name
+limit 5;

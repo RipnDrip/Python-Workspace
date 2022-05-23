@@ -1,0 +1,5 @@
+SELECT SurfaceArea
+FROM country 
+where (select count(name) from city where city.CountryCode = country.code)
+order by population asc
+limit 1;

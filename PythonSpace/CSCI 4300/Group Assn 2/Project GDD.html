@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<style>
+table{
+  width: auto%;
+  border:1px solid black;
+  counter-reset: rowNumber;
+}
+
+table tr {
+counter-increment: rowNumber;
+}
+table th, td {
+ display: table-cell;
+ border:1px solid black;
+ padding-right: 0.3em;
+  text-align: center;
+}
+table tr,td, td:first-child::before {
+  content: counter(rowNumber) ".";
+}
+</style>
+<body>
+
+<h2>Project GDD</h2>
+
+
+<table style="width:auto%">
+  <tr>
+    <th>#</th>
+    <th>Event </th>
+    <th> Action</th>
+  </tr>
+  <tr>
+    <td>
+    <td>
+      Login
+    <td>
+      Client is prompted to log in as a user or admin.
+      If the user has an account, use Login ID and pass to access account.
+      If it is a new user, use registration form to create a new account.
+      Once registered, the user may login as normal.
+    </td>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    <td>
+      Login/Registration Confirmation
+    <td>
+      Send Confirmation when the user is registered or logged in successfully. Otherwise an error message is returned.
+    </td>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+    <td>
+      Registration Form
+    <td>
+      User enters Name, password, age, weight, height, and credit card information.
+      Uses user information to calculate prices based on Age, weight, and height.
+      Stores prices for each individual into the database once calculated.
+    </td>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>
+    <td>
+      Search Page
+    <td>
+      Contains available priced packages based on user profile.
+      User may add/remove products to their own shopping cart.
+    </td>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+    <td>
+      Overview Page
+    <td>
+    Contains summary of available packages as well as more detailed information about each package.
+    </td>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+    <td>
+      Shopping Cart
+    <td>
+    Uses the user's added product database to calculate total price based on the chosen package(s).
+    Once calculated the user can proceed to checkout screen and purchase the desired packages.
+    </td>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+    <td>
+      Checkout
+    <td>
+      Displays a user cart based on saved information from the database.
+      The user can confirm the purchase and use their specific credit card information to purchase what is in the cart.
+    </td>
+    </td>
+  </tr>
+
+
+
+
+
+
+</table>
+</body>
+</html>
+

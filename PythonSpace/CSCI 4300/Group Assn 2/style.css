@@ -1,0 +1,38 @@
+h1 {
+  font-family: Times New Roman;
+text-align: center;
+  color: Black;
+  text-shadow: 1px 1px 3px;
+}
+
+
+#container1 {
+  position: relative;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 200%;
+}
+
+#img1 {
+  width: 200px;
+  height: 200px;
+}
+
+#img2 {
+  width: 200px;
+  height: 200px;
+}
+
+#img3 {
+  width: 200px;
+  height: 200px;
+}
+
+#img4 {
+  width: 200px;
+  height: 200px;
+}

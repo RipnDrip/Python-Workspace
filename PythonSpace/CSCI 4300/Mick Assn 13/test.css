@@ -1,0 +1,85 @@
+h2 {
+    color: rgb(255, 181, 0);
+    margin-left: 30px;
+ }
+
+ #productList {
+    color: rgb(255, 181, 0);
+    margin-top: 50px;
+    margin-left: -50px;
+    font-size: 170%;
+ }
+  
+ #categories {
+    margin-left: -50px;
+    margin-top: 5px;
+ }
+
+ footer {
+    margin-top: 15%;
+ }
+
+ #viewProdList {
+    margin-top: 10%;
+    margin-left: -7%;
+    font-size: medium;
+
+ }
+  
+ body{
+    max-width: 800px;
+    max-height: 600px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+    border: 2px solid black;
+ }
+  
+ input {
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #000080;
+  width:10em;
+  margin-bottom: .5em;
+  margin-left:.25em;
+ }
+  
+ #delete{
+    margin: 5px 1px 3px 0px;
+    border: 1px solid #000080;
+    width:5em;
+    margin-bottom: .5em;
+    margin-left:.25em;
+    border-radius:5px;
+ }
+
+ #sub{
+    margin: 5px 1px 3px 0px;
+    border: 1px solid #000080;
+    width:7em;
+    margin-bottom: .5em;
+    margin-left:50px;
+    border-radius:5px;
+ }
+  
+ main {
+    position: relative;
+    left:80px;
+    top:-40px;
+ }
+ 
+ .tableCL {
+    margin-left: -50px;
+    margin-top: 50px;
+ }
+
+ #viewList {
+    margin-top: 5%;
+    margin-left: -7%;
+    text-decoration:underline;
+ }
+
+ .tableIndex {
+    margin-left:100px;
+    margin-top: -240px;
+ }

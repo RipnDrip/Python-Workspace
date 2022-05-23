@@ -1,0 +1,2 @@
+select name from city
+order by population asc limit 1;

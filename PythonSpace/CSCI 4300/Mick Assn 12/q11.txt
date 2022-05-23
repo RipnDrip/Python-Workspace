@@ -1,0 +1,5 @@
+SELECT language, percentage
+FROM countrylanguage
+INNER JOIN country
+ON countrylanguage.countrycode = country.code
+where countrylanguage.countrycode = 'TTO';

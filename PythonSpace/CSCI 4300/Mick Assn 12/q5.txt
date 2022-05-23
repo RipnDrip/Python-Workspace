@@ -1,0 +1,2 @@
+select district,count(name) from city
+where countrycode = 'usa';

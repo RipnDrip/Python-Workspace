@@ -1,0 +1,2 @@
+select Name, District
+from city;

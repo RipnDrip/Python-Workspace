@@ -1,0 +1,14 @@
+Part III
+
+1) Part one is non-hierarchial because the created users are marked independently of one another where s in part II
+ the user permissions is granted by an admin. So any user created after the admin is given the permissions passed by the admin.
+
+ 2) 
+
+Dynamic protection—No want to preserve complicated roles and presents.
+
+Safety—you could place more than one policy on every object, in addition to stacking them on different base policies. This makes VPD best for internet packages that are deployed for many companies.
+
+No again doors—customers now do not pass protection rules embedded in packages, because the security policy is hooked up to the records.
+
+Complicated get right of entry to regulations may be defined—With VPD, you may use data values to specify complicated access policies that could be tough to create with furnish protection. you can without problems limit get entry to rows.

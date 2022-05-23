@@ -1,0 +1,2 @@
+select district, AVG(population) from city
+where countrycode = 'usa';

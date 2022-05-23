@@ -1,0 +1,57 @@
+h1 {
+    color: steelblue;
+    text-shadow: 2px 2px 4px steelblue;
+    font-family: Arial;
+}
+
+h2 {
+    font-family: Arial;
+}
+
+h3 {
+    font-family: Arial;
+}
+h4 {
+    color: maroon;
+    text-decoration: underline;
+    font-family: Arial;
+}
+
+h4:hover {
+    color: steelblue;
+    font-family: Arial;
+}
+
+p {
+    font-family: Arial;
+}
+
+li {
+    color: steelblue;
+    text-decoration: underline;
+    font-family: Arial;
+    font-weight: 600;
+}
+ul li::before {
+  content: "\2022";
+  color: black;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1.05em;
+}
+
+li:hover {
+    color: salmon;
+    text-decoration: underline;
+    font-family: Arial;
+}
+
+img {
+    float: left;
+}
+
+div {
+font-family: Arial;
+padding-left:50px
+
+}
